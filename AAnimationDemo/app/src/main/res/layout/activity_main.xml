@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sennhvi.aanimationdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_alpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alpha animation"
+        />
+
+    <Button
+        android:id="@+id/btn_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rotate animation"
+        />
+
+    <Button
+        android:id="@+id/btn_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="translate animation"
+        />
+
+    <Button
+        android:id="@+id/btn_scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scale animation"
+        />
+
+    <Button
+        android:id="@+id/btn_mix_effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mix effect animation"
+        />
+
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="custom effect animation"
+        />
+</LinearLayout>

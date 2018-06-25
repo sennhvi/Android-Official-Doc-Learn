@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--1. declare custom attrs,with name and value format-->
+    <declare-styleable name="CusomView">
+        <attr name="rect_color" format="color"/>
+    </declare-styleable>
+
+</resources>

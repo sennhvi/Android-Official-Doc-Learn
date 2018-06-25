@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    >
+    <item android:drawable="@drawable/iv_tansfer_assistant_on_6" android:duration="150"></item>
+    <item android:drawable="@drawable/iv_tansfer_assistant_on_5" android:duration="150"></item>
+    <item android:drawable="@drawable/iv_tansfer_assistant_on_4" android:duration="150"></item>
+    <item android:drawable="@drawable/iv_tansfer_assistant_on_3" android:duration="150"></item>
+    <item android:drawable="@drawable/iv_tansfer_assistant_on_2" android:duration="150"></item>
+    <item android:drawable="@drawable/iv_tansfer_assistant_on_1" android:duration="150"></item>
+
+</animation-list>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sennhvi.adatechooserdemo.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date picker"
+        />
+    <Button
+        android:id="@+id/btn_choose_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000-00-00"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time picker"
+        />
+    <Button
+        android:id="@+id/btn_choose_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="single picker-radiogroup:button"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bd_a"
+            />
+        <RadioButton
+            android:text="B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bd_b"
+            />
+        <RadioButton
+            android:text="C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bd_c"
+            />
+        <RadioButton
+            android:text="D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bd_d"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="multiple picker"
+        />
+    <CheckBox
+        android:text="NYC"
+        android:id="@+id/cb_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:text="OKC"
+        android:id="@+id/cb_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:text="LA"
+        android:id="@+id/cb_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:text="HOU"
+        android:id="@+id/cb_d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
